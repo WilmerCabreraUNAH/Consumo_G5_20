@@ -1,8 +1,8 @@
-var UrlGetPedidos = 'http://34.68.196.220:90/G5_20/controller/pedidos.php?op=GetPedidos';
-var UrlPostPedidos = 'http://34.68.196.220:90/G5_20/controller/pedidos.php?op=InsertPedidos';
-var UrlGetUno = 'http://34.68.196.220:90/G5_20/controller/pedidos.php?op=GetUno';
-var UrlPutPedidos = 'http://34.68.196.220:90/G5_20/controller/pedidos.php?op=UpdatePedidos';
-var UrlDeletePedidos = 'http://34.68.196.220:90/G5_20/controller/pedidos.php?op=DeletePedidos';
+var UrlGetPedidos = 'http://34.68.196.220:90/G5_20/Pedidos/controller/pedidos.php?op=GetPedidos';
+var UrlPostPedidos = 'http://34.68.196.220:90/G5_20/Pedidos/controller/pedidos.php?op=InsertPedidos';
+var UrlGetUno = 'http://34.68.196.220:90/G5_20/Pedidos/controller/pedidos.php?op=GetUno';
+var UrlPutPedidos = 'http://34.68.196.220:90/G5_20/Pedidos/controller/pedidos.php?op=UpdatePedidos';
+var UrlDeletePedidos = 'http://34.68.196.220:90/G5_20/Pedidos/controller/pedidos.php?op=DeletePedidos';
 
 $(document).ready(function(){
     CargarPedidos();
